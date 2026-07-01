@@ -1,0 +1,13 @@
+void moveForward() {
+  leg1.write(90);
+  leg2.write(60);
+  leg3.write(90);
+  leg4.write(60);
+}
+
+void moveBackward() {
+  leg1.write(60);
+  leg2.write(90);
+  leg3.write(60);
+  leg4.write(90);
+}
