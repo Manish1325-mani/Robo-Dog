@@ -1,0 +1,9 @@
+void loop() {
+  readDistance();
+
+  if(distance < 20) {
+    wagTail();
+  } else {
+    moveForward();
+  }
+}
