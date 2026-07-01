@@ -1,0 +1,10 @@
+#include <Servo.h>
+
+Servo leg1, leg2, leg3, leg4;
+
+void setup() {
+  leg1.attach(3);
+  leg2.attach(5);
+  leg3.attach(6);
+  leg4.attach(9);
+}
