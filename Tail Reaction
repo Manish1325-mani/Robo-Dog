@@ -1,0 +1,8 @@
+Servo tail;
+
+void wagTail() {
+  tail.write(60);
+  delay(200);
+  tail.write(120);
+  delay(200);
+}
